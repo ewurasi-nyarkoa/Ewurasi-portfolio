@@ -178,38 +178,7 @@ input, textarea {
 }
 
 
-footer {
-    background: var(--primary-color);
-    color: white;
-    text-align: center;
-    padding: 2rem;
-}
 
-.social-links {
-    margin-bottom: 1rem;
-}
-
-.social-links a {
-    color: white;
-    font-size: 1.5rem;
-    margin: 0 1rem;
-    transition: opacity 0.3s;
-}
-
-.social-links a:hover {
-    opacity: 0.8;
-}
-
-
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-    
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-}
 
 
 .skills {
@@ -364,6 +333,7 @@ footer {
 .skills {
     background: #f8f9fa;
     padding: 2rem;
+    height: auto;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
@@ -562,4 +532,36 @@ footer {
 @keyframes deleteText {
     from { width: 100% }
     to { width: 0 }
+}
+footer {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.social-links {
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    transition: opacity 0.3s;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
 }
